@@ -52,7 +52,7 @@ export default function LibraryList({ schoolId, showBackLink = false }: LibraryL
       <div className="text-center text-red-600">
         <p>{error}</p>
         <p className="mt-2">
-          If this error persists, it may be due to CORS restrictions. Please try accessing the website directly.
+          If this error persists, it may be due to CORS restrictions.
         </p>
       </div>
     )
