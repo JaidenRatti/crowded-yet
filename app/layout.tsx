@@ -31,6 +31,7 @@ export default function RootLayout({
           </header>
           <main className="container mx-auto py-8 px-4 flex-grow">
             {children}
+            <SpeedInsights />
           </main>
           <footer className="border-t mt-8">
             <div className="container mx-auto py-4 px-4 flex justify-center">
