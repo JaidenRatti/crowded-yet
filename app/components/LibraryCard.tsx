@@ -40,7 +40,7 @@ export default function LibraryCard({ library, schoolId }: LibraryCardProps) {
             <Badge variant={library.isOpen ? "default" : "destructive"} className={library.isOpen ? "bg-green-500 hover:bg-green-600" : ""}>
               {library.isOpen ? 'Open' : 'Closed'}
             </Badge>
-            <p className="text-sm text-gray-500">{library.hourSummary}</p>
+            <p className="text-sm text-gray-500">{library.isOpen ? 'View floor details' : 'Closed'}</p>
           </div>
         </CardContent>
       </Card>
