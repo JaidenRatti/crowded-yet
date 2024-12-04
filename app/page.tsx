@@ -33,7 +33,7 @@ export default function Home() {
         </button>
         {isDataSourceOpen && (
           <div className="mt-2 text-gray-600 pb-4">
-            <p>Data is pulled from <a href="https://waitz.io/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">https://waitz.io/</a>, and how they get their data can be found <a href="https://waitz.io/faq.html" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">here</a>.</p>
+            <p>Data is pulled from <a href="https://waitz.io/" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">https://waitz.io/</a>, and how they get their data can be found <a href="https://waitz.io/faq.html" className="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">here</a>. tdlr: They have a sensor installed that picks up the number of devices in an area.</p>
           </div>
         )}
       </div>
@@ -47,7 +47,7 @@ export default function Home() {
         </button>
         {isWrongDataOpen && (
           <div className="mt-2 text-gray-600 pb-4">
-            <p>Three options: The building is closed, the building is open but empty (unlikely), or the school is no longer supported. Schools known to not be supported anymore are Brandeis, FIU, McGill, San Antonio, Texas State, Buffalo, Hartford, and Westminster.</p>
+            <p>Three options: The building is closed, the building is open but empty (unlikely), or the school is no longer supported.</p>
           </div>
         )}
       </div>

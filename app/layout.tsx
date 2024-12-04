@@ -24,8 +24,7 @@ export default function RootLayout({
                 Crowded Yet?
               </h1>
               <p className="text-xl text-blue-100 font-light max-w-2xl">
-                Real-time occupancy insights for university and college buildings. 
-                Check dining halls, libraries, and even specific floors!
+                Find out how many people are in campus buildings—live! Check dining halls, libraries, and even specific floors in real-time.
               </p>
             </div>
           </header>
