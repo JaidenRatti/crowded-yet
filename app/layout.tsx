@@ -1,5 +1,6 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
+import { Github } from 'lucide-react'
 import { SpeedInsights } from "@vercel/speed-insights/next"
 import { Analytics } from "@vercel/analytics/react"
 
@@ -37,7 +38,15 @@ export default function RootLayout({
           </main>
           <footer className="border-t mt-8">
             <div className="container mx-auto py-4 px-4 flex justify-center">
-
+              <a 
+                href="https://github.com/JaidenRatti/crowded-yet"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-600 hover:text-gray-900 transition-colors"
+                aria-label="View source on GitHub"
+              >
+                <Github className="w-6 h-6" />
+              </a>
             </div>
           </footer>
         </div>
