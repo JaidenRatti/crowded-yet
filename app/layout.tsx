@@ -2,6 +2,9 @@ import './globals.css'
 import { Inter } from 'next/font/google'
 import { Github } from 'lucide-react'
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { Analytics } from "@vercel/analytics/react"
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className} bg-gray-100 text-gray-900`}>
+      <GoogleAnalytics GA_MEASUREMENT_ID={process.env.NEXT_PUBLIC_GA_ID || ''} />
         <div className="min-h-screen flex flex-col">
           <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg">
             <div className="container mx-auto py-8 px-4">
