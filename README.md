@@ -1,5 +1,5 @@
 > [!IMPORTANT]  
-> I have been contacted by Occuspace to terminate the use of the API. Thus, the website no longer shows up-to-date information and all commit history has been removed :(
+> I have been contacted (a few times) by Occuspace to terminate the use of the API. Thus, the website no longer shows up-to-date information and all commit history has been removed :(
 
 Below is what the website looked like for the ~2 weeks it was up. Apologies if you were affected by this. You can use the Waitz app to check the status of buildings on campus. 
 
