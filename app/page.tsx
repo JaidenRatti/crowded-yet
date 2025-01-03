@@ -57,7 +57,7 @@ export default function Home() {
 
       <div className="mt-12 p-6 bg-blue-100 border-l-4 border-blue-500 text-blue-700 rounded-lg">
   <p className="text-center text-lg">
-    To see the support received from students, check{' '}
+    Just to make it clear, I appreciate how respectful Occuspace was in this process. To see the support received from students, check{' '}
     <a 
       href="https://www.reddit.com/r/uwaterloo/comments/1h6v4ks/check_how_busy_the_libraries_on_campus_are/" 
       target="_blank" 
