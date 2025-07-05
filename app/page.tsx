@@ -7,9 +7,9 @@ export default function Home() {
     <div className="container mx-auto px-4 py-8">
       <div className="mb-8 p-4 bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700">
         <p className="mb-2">
-          Unfortunately CrowdedYet has been forced to shut down. If you are looking to see how busy buildings on your campus are head to waitz.io/[school]. For example <a href="https://waitz.io/waterloo" className="text-blue-700 hover:underline" target="_blank" rel="noopener noreferrer">www.waitz.io/waterloo</a>.
+          Unfortunately CrowdedYet has been forced to shut down. If you are looking to see how busy buildings on your campus are head to waitz.io/[school]. For example <a href="https://waitz.io/waterloo" className="text-blue-700 hover:underline" target="_blank" rel="noopener noreferrer">www.waitz.io/waterloo</a>. (If you go to the University of Waterloo you'll see they replicated this code and display it on the TV above the elevators in DP). 
         </p>
-        <p>Below is what one of the schools used to look like.</p>
+        <p>Below is a historical view, it's not real data (please don't come after me again).</p>
       </div>
       <h1 className="text-3xl font-bold mb-6">Universities/Colleges (Historical View)</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
