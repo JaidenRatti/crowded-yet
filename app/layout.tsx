@@ -20,7 +20,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="min-h-screen flex flex-col bg-gray-100">
-          <header className="bg-gradient-to-r from-blue-500 to-purple-600 text-white shadow-lg">
+          <header className="bg-gradient-to-r from-slate-900 to-slate-700 text-white shadow-lg">
             <div className="container mx-auto py-8 px-4">
               <h1 className="text-4xl font-extrabold mb-2 tracking-tight">
                 Crowded Yet?
